@@ -20,9 +20,9 @@ Godot Android plugin for IronSource SDK.
   *After that you should have ```android/build``` directory in your Godot project.*
 2. Open the ```build``` directory in your favourite text editor.
 3. Open ```AndroidManifest.xml```
-  * **Insert** attribute ```tools:replace="label"``` inside ```<application>``` tag:
+  * **Insert** attributes ```tools:replace="allowBackup, label" android:allowBackup="false"``` inside ```<application>``` tag:
   
-    ![AndroidManifest.xml](https://i.imgur.com/pHRCFJZ.png)
+    ![AndroidManifest.xml](https://i.imgur.com/x8ao1or.png)
     
 4. Open gradle.properties 
   * **Insert** ```android.useAndroidX=true``` and ```android.enableJetifier=true``` to the end:
