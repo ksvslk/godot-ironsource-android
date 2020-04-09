@@ -40,30 +40,36 @@ Godot Android plugin for IronSource SDK.
 7. In Godot under ```Project Settings``` **add** the plugin to ```Modules```
 
     ![Modules](https://i.imgur.com/nlPJadn.png)
+    
+8. *(Optional)* Add IronSource.gd as autoloadable singleton for convienience:
 
+    ![Autoload](https://i.imgur.com/0lxNq8d.png)
+ 
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* Edit ```IronSource.gd``` and insert your APP_KEY and ad units:
 ```
-code blocks for commands
+const APP_KEY = "<INSERT_YOUR_APP_ID>"
+onready var ad_units: Array = [BANNER, REWARDED_VIDEO, INTERSTITIAL]
 ```
+* Then anywhere in code:
+```
+IronSource.show_rewarded_video("Level_Complete")
+```
+* Check singleton ```IronSource.gd``` for all methods and callbacks
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+If you want to add new ad networks make sure it complies with the 
+[requirements](https://developers.ironsrc.com/ironsource-mobile/android/android-sdk/)
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
+Work based on:
 * [alexzheng](https://github.com/alexzheng/admob_for_godot)
 * [Shin-NiL](https://github.com/Shin-NiL/godot-admob)
 * [DomPizzie](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
+* [IronSource SDK](https://developers.ironsrc.com/ironsource-mobile/android/android-sdk/)
