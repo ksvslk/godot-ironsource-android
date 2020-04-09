@@ -68,6 +68,6 @@ If you want to add new ad networks make sure it complies with the
 
 Work based on:
 * [alexzheng](https://github.com/alexzheng/admob_for_godot)
-* [Shin-NiL](https://github.com/Shin-NiL/godot-admob)
+* [Shin-NiL](https://github.com/Shin-NiL/Godot-Android-Admob-Plugin/)
 * [DomPizzie](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
 * [IronSource SDK](https://developers.ironsrc.com/ironsource-mobile/android/android-sdk/)
