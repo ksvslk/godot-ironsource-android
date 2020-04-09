@@ -64,8 +64,6 @@ IronSource.show_rewarded_video("Level_Complete")
 If you want to add new ad networks make sure it complies with the 
 [requirements](https://developers.ironsrc.com/ironsource-mobile/android/android-sdk/)
 
-## License
-
 ## Acknowledgments
 
 Work based on:
