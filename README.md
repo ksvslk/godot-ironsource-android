@@ -33,9 +33,12 @@ Godot Android plugin for IronSource SDK.
 
     ![godot-ironsource-android](https://i.imgur.com/17cQHRW.png)
     
-6. *(Optional)* If using **AdMob**, then **insert** your APP ID to ```AndroidManifest.conf``` inside plugin folder
+6. If using **AdMob**, then **insert** your APP ID to ```AndroidManifest.conf``` inside plugin folder
     
     ![AndroidManifest.conf](https://i.imgur.com/33yy2FR.png)
+    
+    **WARNING: If you leave the ID as it is, the application will crash.**
+    So if you are not using AdMob remove AdMob related stuff.
     
 7. In Godot under ```Project Settings``` **add** the plugin to ```Modules```
 
