@@ -64,6 +64,10 @@ IronSource.show_rewarded_video("Level_Complete")
 
 ## Help
 
+Before going live comment out 
+```IntegrationHelper.validateIntegration(activity);```
+from  ```IronSourcePlugin.java```
+
 If you want to add new ad networks make sure it complies with the 
 [requirements](https://developers.ironsrc.com/ironsource-mobile/android/android-sdk/)
 
