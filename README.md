@@ -44,7 +44,7 @@ Godot Android plugin for IronSource SDK.
 
     ![Modules](https://i.imgur.com/nlPJadn.png)
     
-8. *(Optional)* Add IronSource.gd as autoloadable singleton for convienience:
+8. Add IronSource.gd as autoloadable singleton for convienience:
 
     ![Autoload](https://i.imgur.com/0lxNq8d.png)
  
